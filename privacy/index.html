@@ -134,8 +134,8 @@
   <div class="page">
     <a class="brand" href="/tallify-legals/">GrowTall</a>
     <h1>Privacy Policy</h1>
-<p><strong>Last updated: July 30, 2026</strong>
-<strong>Effective date: July 30, 2026</strong></p>
+<p><strong>Last updated: October 15, 2026</strong>
+<strong>Effective date: October 15, 2026</strong></p>
 <p>This Privacy Policy explains how GrowTall (&quot;we&quot;, &quot;our&quot;, &quot;the app&quot;) collects, uses, shares, and protects your personal information when you use the GrowTall mobile application.</p>
 <p>GrowTall is operated by Milan Santosh Mishra, based in India. If you have any questions about this policy or your personal data, email us at <strong><a href="mailto:buddhabliss99@gmail.com">buddhabliss99@gmail.com</a></strong>.</p>
 <p>By using GrowTall, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the app.</p>
@@ -217,7 +217,7 @@
 </tr>
 <tr>
 <td>AI interactions</td>
-<td>Messages you send to the GrowTall AI coach and the Meal Planner AI, including ingredient lists. The GrowTall AI coach also receives a snapshot of your current profile (age, current height, dream height, gender, sleep hours, diet quality self-rating, workout frequency, growth-window status, and a reference to your stored predicted-height range — the literal number is not sent to the model) as part of every prompt so its responses are grounded in your real numbers. The text of any community post or comment you draft is sent to Anthropic Claude (Haiku) for safety screening before publication — see Section 3 below.</td>
+<td>Messages you send to the GrowTall AI coach, and the ingredients and requests you type into the Meal Planner AI. The GrowTall AI coach also receives a snapshot of your current profile (age, current height, dream height, gender, sleep hours, diet quality self-rating, workout frequency, growth-window status, and a reference to your stored predicted-height range — the literal number is not sent to the model) as part of every prompt so its responses are grounded in your real numbers. If you have allowed GrowTall AI, the text of community posts you write is also sent to Anthropic Claude (Haiku) for an automatic safety check before publication (comments are not). Nothing is sent to Anthropic until you allow GrowTall AI in the app — see Section 3 below.</td>
 </tr>
 </tbody></table>
 <h3>2.3 Technical information</h3>
@@ -240,7 +240,7 @@
 <ol>
 <li><strong>To build your personalized plan.</strong> Your body measurements, demographic data, lifestyle inputs, diet preferences, and goals are fed into our nutrition engine and exercise program to generate a plan tailored to you.</li>
 <li><strong>To track your progress.</strong> Height logs, weight logs, meal logs, exercise logs, and sleep logs power the progress charts, the Growth Score, streaks, achievements, and the Journey screen.</li>
-<li><strong>To personalize AI responses.</strong> When you chat with the <strong>GrowTall AI coach</strong>, your current profile (age, height, sleep, diet, gender, workout frequency, dream height, growth-window status, and a reference to your stored predicted-height range) is included in the prompt so the response is grounded in your real numbers. The literal predicted-height number is intentionally NOT sent to the AI to prevent it from quoting specific future-height predictions as if they were guaranteed. The <strong>Meal Planner AI</strong> receives only your diet type, allergies, dislikes, and the ingredients you enter — not your full profile.</li>
+<li><strong>To personalize AI responses.</strong> When you chat with the <strong>GrowTall AI coach</strong>, your current profile (age, height, sleep, diet, gender, workout frequency, dream height, growth-window status, and a reference to your stored predicted-height range) is included in the prompt so the response is grounded in your real numbers. The literal predicted-height number is intentionally NOT sent to the AI to prevent it from quoting specific future-height predictions as if they were guaranteed. The <strong>Meal Planner AI</strong> receives your diet type, allergies, dislikes, your per-meal calorie and macro targets, and the ingredients and requests you type — not your full profile. These AI features (and the community post safety check) only run after you allow GrowTall AI in the app, and you can turn this off anytime in Settings → AI features. You don&#39;t need to allow it to use the rest of the app or to post in the community — without it, your posts are checked by our automatic filters only.</li>
 <li><strong>To run the community feed.</strong> If you choose to post, your username, post text, comments, and likes are visible to other GrowTall users.</li>
 <li><strong>To manage your subscription.</strong> Your trial and subscription status is used to determine whether you have access to the app.</li>
 <li><strong>To communicate with you.</strong> We may email you at the address on your account about important account or service changes. We do not send marketing emails.</li>
@@ -251,8 +251,8 @@
 <h2>4. Legal basis for processing (for users in the EU/UK)</h2>
 <p>If you are in the European Economic Area or the United Kingdom, we rely on the following legal bases under the GDPR:</p>
 <ul>
-<li><strong>Performance of a contract</strong> — to deliver the app services you signed up for.</li>
-<li><strong>Legitimate interests</strong> — to keep the app secure and improve the product.</li>
+<li><strong>Performance of a contract</strong> — to deliver the app services you signed up for, including the AI features you choose to use (the GrowTall AI coach and the Meal Planner AI). These run only after you allow GrowTall AI in the app, and you can turn them off anytime in Settings → AI features.</li>
+<li><strong>Legitimate interests</strong> — to keep the app and the community secure and improve the product. This includes the automatic AI safety check on community posts, which runs only if you have allowed GrowTall AI.</li>
 <li><strong>Consent</strong> — for notifications and for writing images to your photo library. You can withdraw consent at any time.</li>
 <li><strong>Legal obligation</strong> — to comply with tax, consumer protection, and other applicable laws.</li>
 </ul>
@@ -276,7 +276,7 @@
 </tr>
 <tr>
 <td><strong>Anthropic PBC (Claude API)</strong></td>
-<td>The contents of your AI chat messages (with a profile snapshot), Meal Planner AI prompts (your ingredients + diet type, allergies, and dislikes), and community-post-moderation text drafts</td>
+<td>Only after you allow GrowTall AI: the contents of your AI chat messages (with a profile snapshot), Meal Planner AI prompts (the ingredients and requests you type + diet type, allergies, dislikes, and per-meal targets), and the text of community posts for the safety check</td>
 <td>To generate AI responses and to screen community posts for safety violations before publication</td>
 <td>United States</td>
 </tr>
@@ -338,7 +338,7 @@
 <p>This means that when you use GrowTall:</p>
 <ul>
 <li>Your account data is stored on Supabase servers in the United States.</li>
-<li>Your AI chat messages and community-post screening text are sent to Anthropic Claude servers in the United States for processing.</li>
+<li>If you allow GrowTall AI, your AI chat messages (with your profile snapshot), your Meal Planner AI requests (with your diet type, allergies, dislikes and meal targets) and the text of your community posts for the safety check are sent to Anthropic Claude servers in the United States for processing.</li>
 <li>Your subscription status is stored with RevenueCat in the United States.</li>
 <li>Your anonymized crash reports are sent to Sentry servers in the United States.</li>
 <li>If you sign in with Apple or Google, your identity token is verified by their authentication servers (Apple-controlled / United States).</li>
@@ -348,7 +348,7 @@
 <h2>7. How long we keep your data</h2>
 <p>We retain your data for as long as your account is active. If you delete your account, we remove your data from our active systems within 30 days. Backups are rotated out within 90 days of account deletion.</p>
 <p>Some data may be retained longer where required by law (for example, tax records related to your subscription).</p>
-<p>AI chat messages sent to Anthropic Claude are processed in real time to generate a response. Per Anthropic&#39;s <a href="https://www.anthropic.com/legal/privacy">API privacy commitments</a>, API inputs and outputs are not used to train Anthropic&#39;s models. They may be retained for up to 30 days for abuse monitoring and Trust &amp; Safety purposes, after which they are deleted. See Anthropic&#39;s privacy policy for the current terms.</p>
+<p>Data sent to Anthropic Claude for the AI coach, the Meal Planner AI and the community post safety check is processed in real time to generate a response. Per Anthropic&#39;s <a href="https://www.anthropic.com/legal/privacy">privacy commitments</a>, it is not used to train Anthropic&#39;s models. Anthropic deletes it within 30 days, except that content its automated safety systems flag as violating its Usage Policy may be kept for up to 2 years, and data may be kept longer where the law requires. See Anthropic&#39;s privacy policy for the current terms.</p>
 <hr>
 <h2>8. How we protect your data</h2>
 <ul>
@@ -398,6 +398,11 @@
 <td>Withdraw consent</td>
 <td>Turn off features that rely on consent, like notifications</td>
 <td>Settings or device settings</td>
+</tr>
+<tr>
+<td>Stop AI sharing</td>
+<td>Turn off GrowTall AI so nothing more is sent to Anthropic</td>
+<td>Settings → AI features</td>
 </tr>
 <tr>
 <td>Complain to a regulator</td>
