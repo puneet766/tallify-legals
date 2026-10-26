@@ -134,8 +134,8 @@
   <div class="page">
     <a class="brand" href="/tallify-legals/">GrowTall</a>
     <h1>Privacy Policy</h1>
-<p><strong>Last updated: October 15, 2026</strong>
-<strong>Effective date: October 15, 2026</strong></p>
+<p><strong>Last updated: October 16, 2026</strong>
+<strong>Effective date: October 16, 2026</strong></p>
 <p>This Privacy Policy explains how GrowTall (&quot;we&quot;, &quot;our&quot;, &quot;the app&quot;) collects, uses, shares, and protects your personal information when you use the GrowTall mobile application.</p>
 <p>GrowTall is operated by Milan Santosh Mishra, based in India. If you have any questions about this policy or your personal data, email us at <strong><a href="mailto:buddhabliss99@gmail.com">buddhabliss99@gmail.com</a></strong>.</p>
 <p>By using GrowTall, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the app.</p>
@@ -227,7 +227,7 @@
 <li>App version</li>
 <li>Approximate IP address at the time of API calls (used by our infrastructure for rate limiting and anti-abuse)</li>
 <li>Timestamps of your activity</li>
-<li>Anonymized crash reports and performance traces sent to Sentry (Functional Software, Inc.). We do not attach your email or full name to these reports; the only identifier is your anonymous Supabase user ID so we can tell whether one user is hitting many crashes or many users are hitting one. Stack traces, device model, OS version, and the screen you were on when the crash happened are included.</li>
+<li>Crash reports and performance traces sent to Sentry (Functional Software, Inc.). We do not attach your email or full name to these reports; the only identifier is your GrowTall account ID (a random code, not your email or name) so we can tell whether one user is hitting many crashes or many users are hitting one. Stack traces, device model, OS version, and the screen you were on when the crash happened are included.</li>
 </ul>
 <p>We do <strong>not</strong> use third-party advertising SDKs and we do not track you across other apps or websites. Sentry is used for crash + performance diagnostics only — not behavioral analytics.</p>
 <h3>2.4 Photos</h3>
@@ -241,7 +241,7 @@
 <li><strong>To build your personalized plan.</strong> Your body measurements, demographic data, lifestyle inputs, diet preferences, and goals are fed into our nutrition engine and exercise program to generate a plan tailored to you.</li>
 <li><strong>To track your progress.</strong> Height logs, weight logs, meal logs, exercise logs, and sleep logs power the progress charts, the Growth Score, streaks, achievements, and the Journey screen.</li>
 <li><strong>To personalize AI responses.</strong> When you chat with the <strong>GrowTall AI coach</strong>, your current profile (age, height, sleep, diet, gender, workout frequency, dream height, growth-window status, and a reference to your stored predicted-height range) is included in the prompt so the response is grounded in your real numbers. The literal predicted-height number is intentionally NOT sent to the AI to prevent it from quoting specific future-height predictions as if they were guaranteed. The <strong>Meal Planner AI</strong> receives your diet type, allergies, dislikes, your per-meal calorie and macro targets, and the ingredients and requests you type — not your full profile. These AI features (and the community post safety check) only run after you allow GrowTall AI in the app, and you can turn this off anytime in Settings → AI features. You don&#39;t need to allow it to use the rest of the app or to post in the community — without it, your posts are checked by our automatic filters only.</li>
-<li><strong>To run the community feed.</strong> If you choose to post, your username, post text, comments, and likes are visible to other GrowTall users.</li>
+<li><strong>To run the community feed.</strong> If you choose to post, your username, post text, comments, and likes are visible to other GrowTall users. If you delete your account, the text of your posts and comments is erased (shown as &quot;[deleted]&quot;); other people&#39;s replies stay.</li>
 <li><strong>To manage your subscription.</strong> Your trial and subscription status is used to determine whether you have access to the app.</li>
 <li><strong>To communicate with you.</strong> We may email you at the address on your account about important account or service changes. We do not send marketing emails.</li>
 <li><strong>To keep the app secure.</strong> We use IP address and activity timestamps to detect abuse and protect the service.</li>
@@ -282,7 +282,7 @@
 </tr>
 <tr>
 <td><strong>RevenueCat, Inc.</strong></td>
-<td>Anonymous user identifier, subscription status, trial state</td>
+<td>Your GrowTall user ID, your purchase and renewal history from Apple or Google, subscription and trial status</td>
 <td>Subscription management, entitlement checks</td>
 <td>United States</td>
 </tr>
@@ -312,7 +312,7 @@
 </tr>
 <tr>
 <td><strong>Sentry (Functional Software, Inc.)</strong></td>
-<td>Anonymized crash reports and performance traces (anonymous user ID only — no email, no full name, no IP)</td>
+<td>Crash reports and performance traces (your account ID only — no email, no full name, no IP)</td>
 <td>Crash diagnostics and performance monitoring</td>
 <td>United States</td>
 </tr>
@@ -331,7 +331,7 @@
 </tbody></table>
 <p>We never share your data with advertising networks, analytics brokers, or resellers. We do not share your community posts with anyone outside GrowTall, other than the community feed that is visible to other GrowTall users.</p>
 <h3>We do not handle your payment card information</h3>
-<p>When you subscribe, the transaction happens directly between you and Apple or Google. GrowTall and RevenueCat only receive a confirmation that a valid subscription exists — we never see your card number, CVV, or billing address.</p>
+<p>When you subscribe, the transaction happens directly between you and Apple or Google. RevenueCat receives the purchase and renewal records Apple or Google provide for your subscription (linked to your GrowTall user ID), and GrowTall sees your subscription status — neither of us ever sees your card number, CVV, or billing address.</p>
 <hr>
 <h2>6. International data transfers</h2>
 <p>GrowTall is operated from India. The third-party providers listed in Section 5 — Supabase, Anthropic, RevenueCat, Apple, Google, Sentry, Expo, and Cloudflare — host their infrastructure in the United States and other regions outside India.</p>
@@ -340,13 +340,13 @@
 <li>Your account data is stored on Supabase servers in the United States.</li>
 <li>If you allow GrowTall AI, your AI chat messages (with your profile snapshot), your Meal Planner AI requests (with your diet type, allergies, dislikes and meal targets) and the text of your community posts for the safety check are sent to Anthropic Claude servers in the United States for processing.</li>
 <li>Your subscription status is stored with RevenueCat in the United States.</li>
-<li>Your anonymized crash reports are sent to Sentry servers in the United States.</li>
+<li>Your crash reports are sent to Sentry servers in the United States.</li>
 <li>If you sign in with Apple or Google, your identity token is verified by their authentication servers (Apple-controlled / United States).</li>
 </ul>
 <p>By using GrowTall, you consent to this international transfer of your data. Where required by the Indian Digital Personal Data Protection Act, 2023 (DPDP Act), the EU General Data Protection Regulation (GDPR), or similar laws, we rely on standard contractual clauses and the providers&#39; own transfer mechanisms to protect your data.</p>
 <hr>
 <h2>7. How long we keep your data</h2>
-<p>We retain your data for as long as your account is active. If you delete your account, we remove your data from our active systems within 30 days. Backups are rotated out within 90 days of account deletion.</p>
+<p>We retain your data for as long as your account is active. If you delete your account, we remove your data from our active systems — including your purchase record at our subscription provider, RevenueCat — within 30 days. Backups are rotated out within 90 days of account deletion.</p>
 <p>Some data may be retained longer where required by law (for example, tax records related to your subscription).</p>
 <p>Data sent to Anthropic Claude for the AI coach, the Meal Planner AI and the community post safety check is processed in real time to generate a response. Per Anthropic&#39;s <a href="https://www.anthropic.com/legal/privacy">privacy commitments</a>, it is not used to train Anthropic&#39;s models. Anthropic deletes it within 30 days, except that content its automated safety systems flag as violating its Usage Policy may be kept for up to 2 years, and data may be kept longer where the law requires. See Anthropic&#39;s privacy policy for the current terms.</p>
 <hr>
@@ -382,7 +382,7 @@
 <tr>
 <td>Deletion</td>
 <td>Have us delete your account and data</td>
-<td>Settings → Delete account</td>
+<td>Settings → Delete account; without a subscription, the Delete account link at the very bottom of the screen after your results (“Your plan is built &amp; ready”); or email us (see <a href="https://puneet766.github.io/tallify-legals/account-deletion/">Account Deletion</a>)</td>
 </tr>
 <tr>
 <td>Portability</td>
